@@ -1,10 +1,10 @@
-# Lab_SOC_Analyst_Automation
+## Lab_SOC_Analyst_Automation
 
-## Purpose
+#### Purpose
 XXX
 
-## Skills Learned
+#### Skills Learned
 
-## Tools Used
+#### Tools Used
 
-## Steps
+#### Steps
