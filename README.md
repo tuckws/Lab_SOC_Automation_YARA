@@ -1,4 +1,4 @@
-## Lab_SOC_Analyst_Automation
+## Lab_SOC_Automation_YARA
 
 #### Purpose
 XXX
