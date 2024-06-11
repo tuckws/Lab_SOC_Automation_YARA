@@ -8,11 +8,11 @@ The purpose of this lab is to develop knowledge and experience in the applicatio
 - Threat intelligence and analysis.
 - Multi-platform functionality with various tools. SIEM-like integration. 
 #### Tools Used
-LimaCharlie.
-YARA.
-Sysmon.
-Ubuntu Server.
-Powershell.
-VMWare.
+- LimaCharlie.
+- YARA.
+- Sysmon.
+- Ubuntu Server.
+- Powershell.
+- VMWare.
 #### Steps
 Reference the files listed for steps and testing documented. 
