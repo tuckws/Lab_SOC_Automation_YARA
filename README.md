@@ -14,5 +14,4 @@ The purpose of this lab is to develop knowledge and experience in the applicatio
 - Ubuntu Server.
 - Powershell.
 - VMWare.
-#### Steps
-Reference the files listed for steps and testing documented. 
+
