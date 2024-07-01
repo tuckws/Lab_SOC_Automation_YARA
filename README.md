@@ -14,4 +14,7 @@ The purpose of this lab is to develop knowledge and experience in the applicatio
 - Ubuntu Server.
 - Powershell.
 - VMWare.
-
+#### Notes
+Subnet IP: 192.168.220.0/24
+Gateway IP: 192.168.220.2
+ubuntu-server: 192.168.220.131/24
