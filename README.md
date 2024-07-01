@@ -1,7 +1,7 @@
 ## Lab_SOC_Automation_YARA
 
 #### Purpose
-The purpose of this lab is to develop knowledge and experience in the application of EDR, Threat Hunting, and SIEM tools. We will use YARA and LimaCharlie to monitor and triage a simple lab environement with Windows 11 and Ubuntu Server. Test, break, have fun.
+The purpose of this lab is to develop knowledge and experience in the application of EDR, Threat Hunting, and SIEM tools. We will use YARA and LimaCharlie to monitor and triage a lab environement with Windows 11 and Ubuntu Server. Test, break, have fun.
 #### Skills Learned
 - EDR implementation.
 - Logging collection and management.
@@ -13,7 +13,7 @@ The purpose of this lab is to develop knowledge and experience in the applicatio
 - Sysmon.
 - Ubuntu Server.
 - Powershell.
-- VMWare.
+- VMware.
 #### Notes
 - Subnet IP: 192.168.220.0/24
 - Gateway IP: 192.168.220.2
