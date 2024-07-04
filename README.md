@@ -18,3 +18,8 @@ The purpose of this lab is to develop knowledge and experience in the applicatio
 - Subnet IP: 192.168.220.0/24
 - Gateway IP: 192.168.220.2
 - ubuntu-server: 192.168.220.131/24
+#### Rules
+```event: SENSITIVE_PROCESS_ACCESS
+op: ends with
+path: event/*/TARGET/FILE_PATH
+value: lsass.exe```
