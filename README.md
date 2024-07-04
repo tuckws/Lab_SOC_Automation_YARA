@@ -20,10 +20,14 @@ The purpose of this lab is to develop knowledge and experience in the applicatio
 - ubuntu-server: 192.168.220.131/24
 #### Rules
 ```
+#Detection LSASS Access:
 event: SENSITIVE_PROCESS_ACCESS
 op: ends with
 path: event/*/TARGET/FILE_PATH
 value: lsass.exe
+#Response:
+- action: report
+  name: LSASS access
 ```
 ```
 #Detection Shadow Volume Deletion:
