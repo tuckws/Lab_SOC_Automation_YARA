@@ -25,3 +25,25 @@ op: ends with
 path: event/*/TARGET/FILE_PATH
 value: lsass.exe
 ```
+```
+#Detection Shadow Volume Deletion:
+event: NEW_PROCESS
+op: and
+rules:
+  - op: is
+    path: event/FILE_PATH
+    value: C:\Windows\system32\vssadmin.exe
+  - op: is
+    path: event/COMMAND_LINE
+    value: '"C:\Windows\system32\vssadmin.exe" delete shadows /all'
+  - op: is
+    path: routing/hostname
+    value: windev2404eval.localdomain
+#Response:
+- action: report
+  name: vss_deletion_kill_it
+- action: task
+  command:
+    - deny_tree
+    - <<routing/parent>>
+```
