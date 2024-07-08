@@ -53,3 +53,25 @@ rules:
     - deny_tree
     - <<routing/parent>>
 ```
+```
+#Detection svchost.exe Suspicious Processes
+event: NEW_PROCESS
+  - op: ends with
+    path: event/FILE_PATH
+    value: \svchost.exe
+#False Positive Rule
+op: and
+rules:
+- op: is
+    path: cat
+    value: Suspicious svchost execution
+- op: is
+  path: detect/event/FILE_PATH
+  value: C:\Windows\system32\svchost.exe
+- op: contains
+  path: detect/event/COMMAND_LINE
+  value: -k
+#Response:
+- action: report
+  name: Suspicious svchost execution
+```
